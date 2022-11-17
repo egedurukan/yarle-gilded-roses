@@ -30,6 +30,8 @@ export class GildedRose {
             itemQuality += 3;
           } else if (itemSellIn <= 10) {
             itemQuality += 2;
+          } else {
+            itemQuality++;
           }
 
           if (itemQuality > 50) {
